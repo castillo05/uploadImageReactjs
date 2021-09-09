@@ -38,8 +38,7 @@ const FormImage=()=>{
     const res=await axios.post('http://localhost:5000/user/-MffDwlkz0r-XsPeaFIx',formData,{
         headers:{
             'Content-Type':'multipart/form-data',
-            'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ii1NZkRRWS15bVROWjBHVVZzeVU0IiwiZW1haWwiOiJqdWxpYW5hLm1nM0BnbWFpbC5jb20iLCJuYW1lIjoianVsaWFuYSIsImlhdCI6MTYzMTEyODg5OSwiZXhwIjoxNjMxMjE1Mjk5fQ.D15QNQ7YXth6sCFdoWrBDLIFdcc66VYtfTv0VKZE8hY'
-        }
+            'Authorization':`Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ii1NZkRRWS15bVROWjBHVVZzeVU0IiwiZW1haWwiOiJqdWxpYW5hLm1nM0BnbWFpbC5jb20iLCJuYW1lIjoianVsaWFuYSIsImlhdCI6MTYzMTE5NzE0MSwiZXhwIjoxNjMxMjgzNTQxfQ.aeGqASMHsB-bW24xlRdyFECp8cB4L18Mdcjqn8tCTQk`        }
     })
         if(res){
             setAlert(true)
